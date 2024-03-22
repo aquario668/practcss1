@@ -1,0 +1,61 @@
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+    body{
+        background-color: black;
+        text-align: center;
+        font-size: 25px;
+    }
+
+p {
+    font-family: neon;
+    color: #00ff00;
+    
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #00ff00;
+  }
+  p {
+    animation: p 2s linear infinite;
+    -moz-animation: p 2s linear infinite;
+    -webkit-animation: p 2s linear infinite;
+    -o-animation: p 2s linear infinite;
+  }
+  
+  @keyframes p{
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #10ff1c, 0 0 3vw #6cff10, 0 0 10vw #74ff10, 0 0 10vw #7cff10, 0 0 .4vw #8bfec1, .5vw .5vw .1vw #148043;
+      color: #53fe28;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #1a8008, 0 0 1.5vw #428008, 0 0 5vw #3a8008, 0 0 5vw #3a8008, 0 0 .2vw #3a8008, .5vw .5vw .1vw #1d400a;
+      color: #148016;
+    }
+}
+.col {
+    font-family: neon;
+    color: #8b0000;;
+    
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #8b0000;;
+  }
+
+.col {
+    animation: col 1s ease infinite;
+    -moz-animation: col 1s ease infinite;
+    -webkit-animation: col 1s ease infinite;
+  }
+  
+  @keyframes col{
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #8b0000, 0 0 3vw #8b0000, 0 0 10vw #8b0000, 0 0 10vw #8b0000, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+      color: #FED128;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+      color: #806914;
+    }
+  }

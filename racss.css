@@ -1,0 +1,159 @@
+body{
+  background-color: black;
+  text-align: center;
+}
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+h1 {
+  font-family: neon;
+  color: #FB4264;
+  
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+h2 {
+  font-family: neon;
+  color: #426DFB;
+  
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+h3 {
+  font-family: neon;
+  color: #45fb42;
+  
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #39ff23;
+}
+h4 {
+  font-family: neon;
+  color: #f8fb42;
+  
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #edff23;
+}
+h5 {
+  font-family: neon;
+  color: #c042fb;
+  
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #b623ff;
+}
+h6 {
+  font-family: neon;
+  color: #fbab42;
+  
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #ffa323;
+}
+
+h1 {
+  animation: h1 1s ease infinite;
+  -moz-animation: h1 1s ease infinite;
+  -webkit-animation: h1 1s ease infinite;
+}
+
+@keyframes h1{
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+h2 {
+  animation: h2 2s linear infinite;
+  -moz-animation: h2 2s linear infinite;
+  -webkit-animation: h2 2s linear infinite;
+  -o-animation: h2 2s linear infinite;
+}
+
+@keyframes h2{
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+h3 {
+  animation: h3 2s linear infinite;
+  -moz-animation: h3 2s linear infinite;
+  -webkit-animation: h3 2s linear infinite;
+  -o-animation: h3 2s linear infinite;
+}
+
+@keyframes h3{
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #10ff1c, 0 0 3vw #6cff10, 0 0 10vw #74ff10, 0 0 10vw #7cff10, 0 0 .4vw #8bfec1, .5vw .5vw .1vw #148043;
+    color: #53fe28;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #1a8008, 0 0 1.5vw #428008, 0 0 5vw #3a8008, 0 0 5vw #3a8008, 0 0 .2vw #3a8008, .5vw .5vw .1vw #1d400a;
+    color: #148016;
+  }
+}
+h4 {
+  animation: h4 2s linear infinite;
+  -moz-animation: h4 2s linear infinite;
+  -webkit-animation: h4 2s linear infinite;
+  -o-animation: h4 2s linear infinite;
+}
+
+@keyframes h4{
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fbff10, 0 0 3vw #fbff10, 0 0 10vw #fbff10, 0 0 10vw #fbff10, 0 0 .4vw #f8fe8b, .5vw .5vw .1vw #807e14;
+    color: #f0fe28;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #7e8008, 0 0 1.5vw #7e8008, 0 0 5vw #7e8008, 0 0 5vw #7e8008, 0 0 .2vw #7e8008, .5vw .5vw .1vw #3d400a;
+    color: #807c14;
+  }
+}
+h5 {
+  animation: h5 1s ease infinite;
+  -moz-animation: h5 1s ease infinite;
+  -webkit-animation: h5 1s ease infinite;
+}
+
+@keyframes h5{
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #9b16fa, 0 0 3vw #9b16fa, 0 0 10vw #9b16fa, 0 0 10vw #9b16fa, 0 0 .4vw #9b16fa, .5vw .5vw .1vw #571480;
+    color: #c828fe;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #5b0b80, 0 0 1.5vw #5b0b80, 0 0 5vw #5b0b80, 0 0 5vw #5b0b80, 0 0 .2vw #5b0b80, .5vw .5vw .1vw #2d0a40;
+    color: #5e1480;
+  }
+}
+h6 {
+  animation: h6 1s ease infinite;
+  -moz-animation: h6 1s ease infinite;
+  -webkit-animation: h6 1s ease infinite;
+}
+
+@keyframes h6{
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fa7d16, 0 0 3vw #fa7d16, 0 0 10vw #fa7d16, 0 0 10vw #fa7d16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #80400b, 0 0 1.5vw #80400b, 0 0 5vw #80400b, 0 0 5vw #80400b, 0 0 .2vw #80400b, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
